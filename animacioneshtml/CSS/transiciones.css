@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 64, 32, 0.5));
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Transición de opacidad */
+.opacidad {
+    opacity: 0.5;
+    transition: opacity 2s ease-in-out;
+}
+
+.opacidad:hover {
+    opacity: 1;
+}
+
+/* Transición de transform */
+.transformar {
+    transform: scale(1);
+    transition: transform 2s ease-in-out;
+}
+
+.transformar:hover {
+    transform: scale(1.2);
+}
+
+/* Transición de background-color */
+.cambiar-fondo {
+    background-color: #ccc;
+    transition: background-color 2s ease-in-out;
+}
+
+.cambiar-fondo:hover {
+    background-color: #007bff;
+}
+
+/* Transición de box-shadow */
+.sombra {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 2s ease-in-out;
+}
+
+.sombra:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Transición de texto */
+.texto {
+    transition: text-shadow 2s ease-in-out;
+}
+
+.texto:hover {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+      font-style: italic;
+      font-size: 15px;
+      background-color: gray;
+  }
+  
+  #btn1:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn1:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn2:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn2:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn3:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn3:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn4:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn4:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn5:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn5:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  button > a {
+      text-decoration: none;
+      color: black;
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones Variadas con Animate.css</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+  <link rel="stylesheet" href="../CSS/biblioteca.css">
+</head>
+<body style="background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 64, 32, 0.5));
+font-style: italic;">
+  <h1>Animaciones Variadas con Animate.css</h1>
+
+  <nav class="container">
+    <button id="btn1" class="animate__animated animate__rubberBand"><a href="../index.html">Inicio</a></button>
+    <button id="btn2" class="animate__animated animate__rubberBand"><a href="../HTML/animaciones.html">Pagina 2</a></button>
+    <button id="btn3" class="animate__animated animate__rubberBand"><a href="../HTML/transiciones.html">Pagina 3</a></button>
+    <button id="btn4" class="animate__animated animate__rubberBand"><a href="../HTML/bibliotecas.html">Pagina 4</a></button>
+    <button id="btn5" class="animate__animated animate__rubberBand"><a href="../HTML/biblioteca2.html">Pagina 5</a></button>
+</nav>
+
+  <section>
+    <h2>Animación de Aparición (Fade + Zoom)</h2>
+    <div class="fila">
+      <div class=" animate1 animate__fadeIn animate__zoomIn">Elemento 1</div>
+      <div class=" animate2 animate__fadeInUp animate__zoomIn">Elemento 2</div>
+      <div class=" animate3 animate__fadeInLeftBig animate__zoomIn">Elemento 3</div>
+      <div class=" animate4 animate__fadeInRightBig animate__zoomIn">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Atención (Flash + Pulse)</h2>
+    <div class="fila">
+      <div class="elemento animate1 animate__flash animate__pulse">Elemento 1</div>
+      <div class="elemento animate2 animate__flash animate__pulse infinite">Elemento 2 (Repetir)</div>
+      <div class="elemento animate3 animate__flash animate__heartBeat">Elemento 3 (Latido)</div>
+      <div class="elemento animate4 animate__flash animate__rubberBand">Elemento 4 (Elástico)</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Entrada (Flip + Slide)</h2>
+    <div class="fila">
+      <div class="elemento animate1 animate__flipInX animate__slideInUp">Elemento 1</div>
+      <div class="elemento animate2 animate__flipInY animate__slideInDown">Elemento 2</div>
+      <div class="elemento animate3 animate__flipInX animate__slideInLeft">Elemento 3</div>
+      <div class="elemento animate4 animate__flipInY animate__slideInRight">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Salida (Salto + Giro)</h2>
+    <div class="fila">
+      <div class="elemento animate1 animate__jumpOut animate__rotateOutUpLeft">Elemento 1</div>
+      <div class="elemento animate2 animate__jumpOut animate__rotateOutDownLeft">Elemento 2</div>
+      <div class="elemento animate3 animate__jumpOut animate__rotateOutUpRight">Elemento 3</div>
+      <div class="elemento animate4 animate__jumpOut animate__rotateOutDownRight">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Rotación (Varias direcciones)</h2>
+    <div class="fila">
+      <div class="elemento animate1 animate__rotateInDownLeft">Elemento 1</div>
+      <div class="elemento animate2 animate__rotateInDownRight">Elemento 2</div>
+      <div class="elemento animate3 animate__hinge">Elemento 3 (Giro horizontal)</div>
+      <div class="elemento animate4 animate__lightSpeedOut">Elemento 4 (Salida rápida)</div>
+    </div>
+  </section>
+</body>
+</html>

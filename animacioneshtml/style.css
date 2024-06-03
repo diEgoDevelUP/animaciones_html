@@ -1,0 +1,163 @@
+body {
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 64, 32, 0.5));
+    font-style: italic;
+}
+  
+header {
+    display: flex;
+}
+
+header > div {
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > div {
+    float: right;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-style: italic;
+    font-size: 15px;
+    background-color: gray;
+}
+
+#btn1:hover {
+    animation: animate__zoomInUp;
+    background-color: gold;
+    animation: pulse 1s ease-in-out; 
+}
+  
+#btn1:active {
+    animation: flash 1s ease-in-out; 
+}
+
+#btn2:hover {
+    animation: animate__zoomInUp;
+    background-color: gold;
+    animation: pulse 1s ease-in-out; 
+}
+  
+#btn2:active {
+    animation: flash 1s ease-in-out; 
+}
+
+#btn3:hover {
+    animation: animate__zoomInUp;
+    background-color: gold;
+    animation: pulse 1s ease-in-out; 
+}
+  
+#btn3:active {
+    animation: flash 1s ease-in-out; 
+}
+
+#btn4:hover {
+    animation: animate__zoomInUp;
+    background-color: gold;
+    animation: pulse 1s ease-in-out; 
+}
+  
+#btn4:active {
+    animation: flash 1s ease-in-out; 
+}
+
+#btn5:hover {
+    animation: animate__zoomInUp;
+    background-color: gold;
+    animation: pulse 1s ease-in-out; 
+}
+  
+#btn5:active {
+    animation: flash 1s ease-in-out; 
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.animate1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: animate1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate2 {
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    animation-name: animate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate3 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    animation-name: animate3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate4 {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    animation-name: animate4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+  
+.animate5 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: animate4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate6 {
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    animation-name: animate4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate7 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    animation-name: animate4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animate8 {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    animation-name: animate4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

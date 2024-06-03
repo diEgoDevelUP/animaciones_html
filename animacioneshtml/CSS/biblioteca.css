@@ -1,0 +1,69 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+      font-style: italic;
+      font-size: 15px;
+      background-color: gray;
+  }
+  
+  #btn1:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn1:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn2:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn2:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn3:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn3:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn4:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn4:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  #btn5:hover {
+      animation: animate__zoomInUp;
+      background-color: gold;
+      animation: pulse 1s ease-in-out; 
+  }
+    
+  #btn5:active {
+      animation: flash 1s ease-in-out; 
+  }
+  
+  button > a {
+      text-decoration: none;
+      color: black;
+  }

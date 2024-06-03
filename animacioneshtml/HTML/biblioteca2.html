@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones Variadas con anime.js</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/anime.js/3.9.0/anime.min.css">
+  <link rel="stylesheet" href="../CSS/biblioteca.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anime.js/3.9.0/anime.min.js"></script>
+</head>
+<body style="background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 64, 32, 0.5));
+font-style: italic;">
+  <h1>Animaciones Variadas con anime.js</h1>
+
+  <nav class="container">
+    <button id="btn1" class="rubberBand"><a href="../index.html">Inicio</a></button>
+    <button id="btn2" class="rubberBand"><a href="../HTML/animaciones.html">Pagina 2</a></button>
+    <button id="btn3" class="rubberBand"><a href="../HTML/transiciones.html">Pagina 3</a></button>
+    <button id="btn4" class="rubberBand"><a href="../HTML/bibliotecas.html">Pagina 4</a></button>
+    <button id="btn5" class="rubberBand"><a href="../HTML/biblioteca2.html">Pagina 5</a></button>
+  </nav>
+
+  <section>
+    <h2>Animación de Aparición (Fade + Zoom)</h2>
+    <div class="fila">
+      <div class="elemento animate fadeIn zoomIn">Elemento 1</div>
+      <div class="elemento animate fadeInUp zoomIn">Elemento 2</div>
+      <div class="elemento animate fadeInLeftBig zoomIn">Elemento 3</div>
+      <div class="elemento animate fadeInRightBig zoomIn">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Atención (Flash + Pulse)</h2>
+    <div class="fila">
+      <div class="elemento animate flash pulse">Elemento 1</div>
+      <div class="elemento animate flash pulse infinite">Elemento 2 (Repetir)</div>
+      <div class="elemento animate flash heartBeat">Elemento 3 (Latido)</div>
+      <div class="elemento animate flash rubberBand">Elemento 4 (Elástico)</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Entrada (Flip + Slide)</h2>
+    <div class="fila">
+      <div class="elemento animate flipInX slideInUp">Elemento 1</div>
+      <div class="elemento animate flipInY slideInDown">Elemento 2</div>
+      <div class="elemento animate flipInX slideInLeft">Elemento 3</div>
+      <div class="elemento animate flipInY slideInRight">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Salida (Salto + Giro)</h2>
+    <div class="fila">
+      <div class="elemento animate jumpOut rotateOutUpLeft">Elemento 1</div>
+      <div class="elemento animate jumpOut rotateOutDownLeft">Elemento 2</div>
+      <div class="elemento animate jumpOut rotateOutUpRight">Elemento 3</div>
+      <div class="elemento animate jumpOut rotateOutDownRight">Elemento 4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Animación de Rotación (Varias direcciones)</h2>
+    <div class="fila">
+      <div class="elemento animate rotateInDownLeft">Elemento 1</div>
+      <div class="elemento animate rotateInDownRight">Elemento 2</div>
+      <div class="elemento animate hinge">Elemento 3 (Giro horizontal)</div>
+      <div class="elemento animate lightSpeedOut">Elemento 4 (Salida rápida)</div>
+    </div>
+  </section>
+</body>
